@@ -1,0 +1,49 @@
+# phpstorm project files
+/.idea
+
+# netbeans project files
+nbproject
+
+# sublime
+*.sublime-*
+
+# Visual Studio Code
+*.code-workspace
+.vscode
+
+# Nginx
+Nginx*.conf
+nginx*.conf
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# composer vendor dir
+/site/vendor
+
+# composer itself is not needed
+/site/composer.phar
+
+# phpunit itself is not needed
+/site/phpunit.phar
+# local phpunit config
+/site/phpunit.xml
+
+node_modules
+composer.lock
+package-lock.json
+
+# SonarQube
+.scannerwork
+sonar-project.properties
+sonarscan.bat
+
+# dev files
+--DEV
