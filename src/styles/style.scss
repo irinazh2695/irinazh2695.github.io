@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "_global/const";
+
+// BASICS
+@import
+        "_base/base",
+        "_base/reset",
+        "_base/helpers";
+
+// BLOCKS
+@import "blocks/module";
+
+// LAYOUT
+@import
+        "layout/header",
+        "layout/footer";
+
+@import "main/main";

@@ -1,0 +1,50 @@
+[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+:root {
+    color: $color-white;
+    background: $color-bg;
+    font-family: $font, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-synthesis: none;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0 !important;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+main {
+    // max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {  flex-grow: 1;
+
+    @media screen and (max-width: 39.9375em) { width: 100%; }
+}

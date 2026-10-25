@@ -1,0 +1,19 @@
+// ========= EXAMPLE ==============
+$font: 'Manrope';
+$font-header: 'Jost';
+$font-background: 'Raleway';
+
+// General Colors
+$color-red: #ED2B3A;
+$color-black: #090909; // inc
+$color-white: #F3F1ED;
+$color-light-grey: #999895; // muted
+
+// Shadows, Lines etc
+$color-line: rgba(255, 255, 255, 0.13); // line
+$color-glass: rgba(255, 255, 255, 0.045); // glass
+
+$color-bg: $color-black;
+$color-text: $color-light-grey;
+$color-header: $color-white;
+$color-accent: $color-red;
