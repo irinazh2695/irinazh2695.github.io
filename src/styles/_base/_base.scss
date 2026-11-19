@@ -23,6 +23,11 @@
     text-decoration: none;
 }
 
+::selection {
+    background-color: $color-accent;
+    color: $color-white;
+}
+
 html,
 body {
     width: 100%;
